@@ -9,7 +9,6 @@ RSpec.describe 'Users API', type: :request do
 
 			it 'creates a user' do
         expect(json['email']).to eq('example@email.com')
-        byebug
       end
 
       it 'return status code 201' do
